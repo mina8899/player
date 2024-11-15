@@ -7,6 +7,11 @@ const AudioPlayer = () => {
   const songs = useMemo(
     () => [
       {
+        id: "0",
+        title: "اصليله",
+        src: "/15.mp3",
+      },
+      {
         id: "1",
         title: "يستجيب الرب ليك",
         src: "/2.mp3",
